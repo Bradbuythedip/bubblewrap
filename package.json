@@ -1,0 +1,52 @@
+{
+  "name": "pwa-bubblewrap-sample",
+  "version": "1.0.0",
+  "description": "A highly mobile-optimized Progressive Web App with Bubblewrap integration",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "npx http-server public -p 8080 -o",
+    "dev": "npx http-server public -p 8080",
+    "build": "echo 'No build step required for vanilla PWA'",
+    "serve": "npx http-server public -p 8080 -c-1",
+    "test": "npx lighthouse http://localhost:8080 --view",
+    "bubblewrap:init": "bubblewrap init --manifest=http://localhost:8080/manifest.json",
+    "bubblewrap:build": "bubblewrap build",
+    "bubblewrap:install": "bubblewrap install",
+    "bubblewrap:update": "bubblewrap update --manifest=http://localhost:8080/manifest.json",
+    "android:build": "npm run bubblewrap:build",
+    "android:install": "npm run bubblewrap:install",
+    "lint": "echo 'No linting configured'",
+    "format": "echo 'No formatting configured'"
+  },
+  "keywords": [
+    "pwa",
+    "progressive-web-app",
+    "bubblewrap",
+    "twa",
+    "trusted-web-activity",
+    "mobile",
+    "android",
+    "mobile-optimization",
+    "dapp-store"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/pwa-bubblewrap-sample"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/pwa-bubblewrap-sample/issues"
+  },
+  "homepage": "https://your-domain.com",
+  "devDependencies": {
+    "@bubblewrap/cli": "^1.19.0",
+    "http-server": "^14.1.1",
+    "lighthouse": "^10.4.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}

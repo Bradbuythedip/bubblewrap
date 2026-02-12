@@ -1,0 +1,55 @@
+{
+  "packageId": "com.example.mobilepwa",
+  "host": "your-domain.com",
+  "name": "Mobile PWA Demo",
+  "launcherName": "PWA Demo",
+  "display": "standalone",
+  "themeColor": "#667eea",
+  "navigationColor": "#667eea",
+  "backgroundColor": "#667eea",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://your-domain.com/icons/icon-512x512.png",
+  "maskableIconUrl": "https://your-domain.com/icons/icon-512x512.png",
+  "monochromeIconUrl": "",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Home",
+      "short_name": "Home",
+      "url": "/",
+      "icon": "https://your-domain.com/icons/icon-192x192.png"
+    },
+    {
+      "name": "Explore",
+      "short_name": "Explore",
+      "url": "/?view=explore",
+      "icon": "https://your-domain.com/icons/icon-192x192.png"
+    }
+  ],
+  "generatorApp": "@bubblewrap/cli",
+  "webManifestUrl": "https://your-domain.com/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": false
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "minSdkVersion": 19,
+  "targetSdkVersion": 33,
+  "orientation": "portrait"
+}
