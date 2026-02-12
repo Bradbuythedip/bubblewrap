@@ -1,5 +1,15 @@
 # Mobile-Optimized PWA with Bubblewrap - Complete Guide
 
+[![Live Demo](https://img.shields.io/badge/demo-live-success)](https://bradbuythedip.github.io/bubblewrap/public/)
+[![Documentation](https://img.shields.io/badge/docs-comprehensive-blue)](https://bradbuythedip.github.io/bubblewrap/docs-site/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+## 🚀 Quick Links
+
+- 🎮 **[Live Demo](https://bradbuythedip.github.io/bubblewrap/public/)** - Try the PWA now!
+- 📚 **[Documentation Site](https://bradbuythedip.github.io/bubblewrap/docs-site/)** - Project website
+- 💰 **[Grant Application](https://airtable.com/appw7jfRXG6Joia2b/pagboimH7XuNysuYZ/form)** - dApp Store submission
+
 ## Overview
 
 This project demonstrates a highly mobile-optimized Progressive Web App (PWA) that can be converted to an Android app using Bubblewrap CLI and published on the dApp Store.
