@@ -15,6 +15,8 @@
     "bubblewrap:update": "bubblewrap update --manifest=http://localhost:8080/manifest.json",
     "android:build": "npm run bubblewrap:build",
     "android:install": "npm run bubblewrap:install",
+    "deploy:vercel": "vercel --prod",
+    "deploy:preview": "vercel",
     "lint": "echo 'No linting configured'",
     "format": "echo 'No formatting configured'"
   },
